@@ -130,7 +130,7 @@ class _SecondPageState extends State<SecondPage> {
             SizedBox(height:15,),
             Text('Message: ', style: TextStyle(fontSize: 20, color: Colors.amberAccent, fontWeight: FontWeight.bold, ),),
             Padding(
-              padding: const EdgeInsets.all(11.0),
+              padding: const EdgeInsets.all(12.0),
               child: Text('${getInterpretation()}', style: TextStyle(fontSize: 15, color: Colors.blue, fontWeight: FontWeight.bold, ),),
             )
           ],
